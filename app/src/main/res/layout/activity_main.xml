@@ -26,7 +26,7 @@
         android:layout_margin="16dp"
         android:layout_marginTop="16dp"
         android:padding="8dp"
-        android:text="@string/btn_name"
+        android:text="@string/btn_aumentar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
@@ -38,7 +38,7 @@
 
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Diminuir"
+        android:text="@string/btn_diminuir"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/activity_main_btn_aumentar"
