@@ -30,7 +30,10 @@ class MainActivity : AppCompatActivity() {
             textContador.text= "${++contador}"
         }
         btnDiminuir.setOnClickListener{
-            textContador.text= "${--contador}"
+            if (contador > 0) {
+                contador--
+                textContador.text = "$contador"
+            }
         }
     }
 }
