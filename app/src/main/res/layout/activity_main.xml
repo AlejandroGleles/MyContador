@@ -26,7 +26,7 @@
         android:layout_margin="16dp"
         android:layout_marginTop="16dp"
         android:padding="8dp"
-        android:text="Aumentar"
+        android:text="@string/btn_name"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
